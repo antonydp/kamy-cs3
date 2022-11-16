@@ -1,0 +1,122 @@
+[
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 48674,
+        "status": 0,
+        "language": "de",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 3,
+        "internalName": "KamyrollDEProvider",
+        "description": "Schauen Sie sich alle Crunchyroll-Anime \u00fcber die Kamyroll-API an. Dieser Anbieter zeigt nur Anime mit deutschen Untertiteln/Synchronisationen.",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KamyrollDEProvider.cs3",
+        "name": "KamyrollDEProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 48812,
+        "status": 0,
+        "language": "en",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 8,
+        "internalName": "KamyrollENProvider",
+        "description": "Watch crunchyroll through Kamyroll API, this extension will only display english dubbed/hardsubbed anime",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KamyrollENProvider.cs3",
+        "name": "KamyrollENProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 48488,
+        "status": 0,
+        "language": "es",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 8,
+        "internalName": "KamyrollESProvider",
+        "description": "Observa todos los animes de crunchyroll a trav\u00e9s de la API Kamyroll, este proveedor solo mostrar\u00e1 anime subtitulado/doblado en espa\u00f1ol",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KamyrollESProvider.cs3",
+        "name": "KamyrollESProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/K-14-11-2022.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 46947,
+        "status": 1,
+        "language": "it",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 1,
+        "internalName": "KamyrollITProvider",
+        "description": "Schauen Sie sich alle Crunchyroll-Anime \u00fcber die Kamyroll-API an. Dieser Anbieter zeigt nur Anime mit deutschen Untertiteln/Synchronisationen.",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KamyrollITProvider.cs3",
+        "name": "KamyrollITProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/kronch.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 60569,
+        "status": 1,
+        "language": "en",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 11,
+        "internalName": "KronchENProvider",
+        "description": "Watch that site with help from the Consumet API, currently all hardsubs will be in english, use soft subs if you speak another language",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KronchENProvider.cs3",
+        "name": "KronchENProvider"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/Stormunblessed/IPTV-CR-NIC/main/logos/kronch.png",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/antonydp/kamy-cs3",
+        "fileSize": 60498,
+        "status": 1,
+        "language": "es",
+        "authors": [
+            "Stormunblessed"
+        ],
+        "tvTypes": [
+            "Anime",
+            "OVA"
+        ],
+        "version": 2,
+        "internalName": "KronchESProvider",
+        "description": "Observa el anime de ese sitio con la ayuda de la API Consumet, este proveedor solo mostrar\u00e1 anime subtitulado/doblado en espa\u00f1ol, subt\u00edtulos de varios idiomas disponibles",
+        "url": "https://raw.githubusercontent.com/antonydp/kamy-cs3/builds/KronchESProvider.cs3",
+        "name": "KronchESProvider"
+    }
+]
