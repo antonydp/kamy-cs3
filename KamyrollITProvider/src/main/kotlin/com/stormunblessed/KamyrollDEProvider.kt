@@ -412,22 +412,17 @@ class KamyrollITProvider: MainAPI() {
         name: String,
         callback: (ExtractorLink) -> Unit
     )  {
-        return generateM3u8(
-            this.name,
-            streamLink,
-            ""
-        ).forEach { sub ->
-            callback(
-                ExtractorLink(
-                    this.name,
-                    name,
-                    sub.url,
-                    "",
-                    getQualityFromName(sub.quality.toString()),
-                    true
-                )
+
+        callback.invoke(
+            ExtractorLink(
+                this.name,
+                this.name,
+                streamLink,
+                isM3u8 = true,
+                referer = "",
+                quality = Qualities.Unknown.value
             )
-        }
+        )
     }
 
     override suspend fun loadLinks(
