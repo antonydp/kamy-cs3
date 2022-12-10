@@ -415,8 +415,8 @@ class KamyrollITProvider: MainAPI() {
 
         callback.invoke(
             ExtractorLink(
-                name,
                 this.name,
+                name,
                 streamLink,
                 isM3u8 = true,
                 referer = "",
