@@ -20,7 +20,7 @@ class KamyrollITProvider: MainAPI() {
     override var mainUrl = "https://api.kamyroll.tech" //apirurl
     override val instantLinkLoading = false
     override val hasMainPage = true
-    override var lang = "de"
+    override var lang = "it"
     override val supportedTypes = setOf(
         TvType.AnimeMovie,
         TvType.Anime,
@@ -448,8 +448,8 @@ class KamyrollITProvider: MainAPI() {
             val urlstream = it.url!!
             if ((it.audioLocale!!.contains(Regex("ja-JP|zh-CN")) && it.hardsubLocale.isNullOrEmpty()))
                 getKamyStream(urlstream, "Kamyroll RAW", callback)
-            if ((it.hardsubLocale!!.contains(Regex("it-IT")) || it.audioLocale!!.contains(Regex("de-DE")))) {
-                val name = if (it.audioLocale!!.contains(Regex("de-DE"))) "Kamyroll German" else "Kamyroll Hardsub German"
+            if ((it.hardsubLocale!!.contains(Regex("it-IT")) || it.audioLocale!!.contains(Regex("it-IT")))) {
+                val name = if (it.audioLocale!!.contains(Regex("it-IT"))) "Kamyroll Italian" else "Kamyroll Hardsub Italian"
                 getKamyStream(urlstream, name, callback)
             }
         }
